@@ -3728,6 +3728,12 @@ if useStudio then
 	local Button = Tab:CreateButton({
 		Name = "Change Theme",
 		Callback = function()
+        local sound = Instance.new("Sound")
+        sound.SoundId = "rbxassetid://5852470908"
+        sound.Volume = 0.2
+        sound.Parent = game:GetService("Workspace")
+        sound:Play()
+
 			-- The function that takes place when the button is pressed
 			Window.ModifyTheme('DarkBlue')
 		end,
@@ -3738,6 +3744,12 @@ if useStudio then
 		CurrentValue = false,
 		Flag = "Toggle1adwawd", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
 		Callback = function(Value)
+        local sound = Instance.new("Sound")
+        sound.SoundId = "rbxassetid://5852470908"
+        sound.Volume = 0.2
+        sound.Parent = game:GetService("Workspace")
+        sound:Play()
+
 			-- The function that takes place when the toggle is pressed
 			-- The variable (Value) is a boolean on whether the toggle is true or false
 		end,
@@ -3773,6 +3785,12 @@ if useStudio then
 		RemoveTextAfterFocusLost = false,
 		Flag = 'Input1',
 		Callback = function(Text)
+        local sound = Instance.new("Sound")
+        sound.SoundId = "rbxassetid://5852470908"
+        sound.Volume = 0.2
+        sound.Parent = game:GetService("Workspace")
+        sound:Play()
+
 			-- The function that takes place when the input is changed
 			-- The variable (Text) is a string for the value in the text box
 		end,
@@ -3790,6 +3808,12 @@ if useStudio then
 		MultipleOptions = false,
 		Flag = "Dropdown1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
 		Callback = function(Options)
+        local sound = Instance.new("Sound")
+        sound.SoundId = "rbxassetid://5852470908"
+        sound.Volume = 0.2
+        sound.Parent = game:GetService("Workspace")
+        sound:Play()
+
 			--Window.ModifyTheme(Options[1])
 			-- The function that takes place when the selected option is changed
 			-- The variable (Options) is a table of strings for the current selected options
