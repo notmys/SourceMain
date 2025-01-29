@@ -2694,6 +2694,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 
 local allowedNames = {
     ["01xMYS"] = true,
+    ["IMAMINOR62"] = true,
     ["Strixxsy"] = true,
 }
 
